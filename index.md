@@ -8,13 +8,15 @@
 layout: page
 ---
 
+<img src="assets/images/Zackory_pr2.jpg" alt="Zackory Erickson photo">
+
 <p>
   I am a tenure-track Assistant Professor in <a href="https://www.ri.cmu.edu">The Robotics Institute</a> at <a href="https://www.cmu.edu">Carnegie Mellon University</a>, where I lead the <a href="https://rchi-lab.github.io">Robotic Caregiving and Human Interaction (RCHI) Lab</a>.
   My research explores intelligent physical human-robot interaction, with applications in healthcare robotics.
 </p>
   
 <p>
-  I received my PhD in Robotics at Georgia Tech advised by <a href="http://ckemp.bme.gatech.edu/">Charlie Kemp</a>.
+  Previously, I received my PhD in Robotics at Georgia Tech advised by <a href="http://ckemp.bme.gatech.edu/">Charlie Kemp</a>.
 </p>
   
 <p>
@@ -31,7 +33,7 @@ layout: page
 
 <hr>
 
-Extra links
+<h4>Extra links</h4>
 You can find a recording of my Robotics PhD Defense at Georgia Tech here: <a href="https://youtu.be/3DYv8SlaP2w">https://youtu.be/3DYv8SlaP2w</a>
 
 In 2016, I participated in the 4th Heidelberg Laureate Forum. Here are <a href="http://zackory.com/heidelberg-laureate-forum/">some photos from the 4th HLF</a>.

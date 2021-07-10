@@ -23,7 +23,7 @@ function showhide(d) {
         <td width="250" height="100">
             <img src="{{pub.image}}" img width="250">
         </td>
-        <td><a href="{{pub.pdf}}">{{pub.title}}</a><br>
+        <td><h4><a href="{{pub.pdf}}">{{pub.title}}</a></h4><br>
             {{pub.authors}}<br>
             <em>{{pub.venue}}</em>, {{pub.year}}
             <div style="font-size:small">

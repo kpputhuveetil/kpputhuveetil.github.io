@@ -17,13 +17,21 @@ function showhide(d) {
 
 <table cellpadding="10" width="100%">
 {% for pub in site.data.publications %}
+    {% assign authors = {{pub.authors}} | split: ", " %}
     <tr>
         <td width="250" height="100">
             <img src="{{pub.image}}" img width="250">
         </td>
-        <td><h5><a href="{{pub.pdf}}">{{pub.title}}</a></h5>
+        <td><h6><a href="{{pub.pdf}}">{{pub.title}}</a></h6>
+            {% for author in authors %}
+                {% if forloop.index == authors.size %}
+                    <nobr>{{ author }}</nobr>
+                {% else %}
+                    <nobr>{{ author }},</nobr>
+                {% endif %}
+            {% endfor %}<br>
             {{pub.authors}}<br>
-            <em>{{pub.venue}}</em>, {{pub.year}}
+            <em>{{pub.venue}}</em>, {{pub.year}}<br>
             <div style="font-size:small">
                 <em>
                     {% if pub.pdf %}

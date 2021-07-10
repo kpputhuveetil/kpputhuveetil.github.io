@@ -13,6 +13,9 @@ dl, dd, ol, ul, figure {
 
 }
 
+h6 {
+  margin: 0px !important;
+}
 
 /**
  * Basic styling
@@ -101,10 +104,10 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+/**h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
-
+*/
 
 /**
  * Links

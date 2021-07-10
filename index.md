@@ -9,9 +9,9 @@ layout: page
 ---
 
 <img src="assets/images/Zackory_pr2.jpg" alt="Zackory Erickson photo">
-<br>
 
 <p>
+  <br>
   I am a tenure-track Assistant Professor in <a href="https://www.ri.cmu.edu">The Robotics Institute</a> at <a href="https://www.cmu.edu">Carnegie Mellon University</a>, where I lead the <a href="https://rchi-lab.github.io">Robotic Caregiving and Human Interaction (RCHI) Lab</a>.
   My research explores intelligent physical human-robot interaction, with applications in healthcare robotics.
 </p>

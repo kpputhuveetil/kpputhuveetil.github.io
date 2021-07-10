@@ -6,7 +6,6 @@ permalink: /publications/
 
 Publications
 
-<!--
 <script>
 function showhide(d) {
   var x = document.getElementById(d);
@@ -64,4 +63,4 @@ function showhide(d) {
     </tr>
 {% endfor %}
 </table>
--->
+

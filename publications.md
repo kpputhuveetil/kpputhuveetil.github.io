@@ -23,6 +23,9 @@ function showhide(d) {
             <img src="{{pub.image}}" img width="250">
         </td>
         <td><h6><a href="{{pub.pdf}}">{{pub.title}}</a></h6>
+            <div style="line-height:50%;">
+                <br>
+            </div>
             <div style="font-size:medium">
                 {% for author in authors %}
                     {% if forloop.index == authors.size %}

@@ -141,7 +141,7 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
-  font-size:small;
+  
   /**@include relative-font-size(1.125);
   font-style: italic;
 
@@ -154,6 +154,9 @@ blockquote {
   }*/
 }
 
+blockquote p {
+  font-size:small;
+}
 
 
 /**

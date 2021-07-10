@@ -2,7 +2,7 @@
   authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
   year: 2020
   type: conference
-  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  venue: ICRA
   image: ../assets/images/assistive_gym.jpg
   id: erickson2020assistive
   projectpage:
@@ -24,9 +24,9 @@
   authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
   year: 2020
   type: conference
-  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  venue: ICRA
   image: ../assets/images/assistive_gym.jpg
-  id: erickson2020assistive
+  id: erickson2020assistive2
   projectpage: https://github.com/Healthcare-Robotics/assistive-gym
   code: https://github.com/Healthcare-Robotics/assistive-gym
   bibtex: |

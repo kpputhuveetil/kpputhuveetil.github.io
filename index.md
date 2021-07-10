@@ -26,14 +26,14 @@ layout: page
 
 <hr>
 
-<h2>News</h2>
+<h3>News</h3>
 <ul>
   <li>Organizing an ICRA 2021 workshop <a href="https://sites.gatech.edu/learning-caregiving-icra2021/">Learning for Caregiving Robots</a></li>
 </ul>
 
 <hr>
 
-<h4>Extra links</h4>
+<h3>Extra links</h3>
 You can find a recording of my Robotics PhD Defense at Georgia Tech here: <a href="https://youtu.be/3DYv8SlaP2w">https://youtu.be/3DYv8SlaP2w</a>
 
 In 2016, I participated in the 4th Heidelberg Laureate Forum. Here are <a href="http://zackory.com/heidelberg-laureate-forum/">some photos from the 4th HLF</a>.

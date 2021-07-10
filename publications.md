@@ -26,6 +26,9 @@ function showhide(d) {
             <em>{{pub.venue}}</em>, {{pub.year}}
             <div style="font-size:small">
                 <em>
+                    {% if pub.pdf %}
+                        <a href="{{pub.pdf}}">[PDF]</a>
+                    {% endif %}
                     {% if pub.projectpage %}
                         <a href="{{pub.projectpage}}">[Project Page]</a>
                     {% endif %}
@@ -40,9 +43,6 @@ function showhide(d) {
                     {% endif %}
                     {% if pub.video %}
                         <a href="{{pub.video}}">[Video]</a>
-                    {% endif %}
-                    {% if pub.pdf %}
-                        <a href="{{pub.pdf}}">[PDF]</a>
                     {% endif %}
                 </em>
                 <div id="bib{{pub.id}}" style="display:none">

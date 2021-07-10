@@ -31,7 +31,10 @@ function showhide(d) {
                         <nobr>{{ author }},</nobr>
                     {% endif %}
                 {% endfor %}<br>
-                <em>{{pub.venue}}</em>, {{pub.year}}<br><br>
+                <em>{{pub.venue}}</em>, {{pub.year}}<br>
+            </div>
+            <div style="line-height:50%;">
+                <br>
             </div>
             <div style="font-size:small">
                 <em>

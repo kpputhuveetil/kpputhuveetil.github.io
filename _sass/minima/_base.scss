@@ -13,10 +13,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-h6{
-  margin-bottom: 0px;
-}
-
 
 /**
  * Basic styling
@@ -145,17 +141,17 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
-  font-style: normal;
+  font-style: small;
   /**@include relative-font-size(1.125);
   font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
-  }*/
+  }
 
   i, em {
     font-style: small;
-  }
+  }*/
 }
 
 

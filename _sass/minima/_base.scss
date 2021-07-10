@@ -103,10 +103,10 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+/**h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
-
+*/
 
 
 /**
@@ -142,7 +142,7 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  /**@include relative-font-size(1.125);
   font-style: italic;
 
   > :last-child {
@@ -151,7 +151,7 @@ blockquote {
 
   i, em {
     font-style: normal;
-  }
+  }*/
 }
 
 

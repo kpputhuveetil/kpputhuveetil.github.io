@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-Publications
-
 <script>
 function showhide(d) {
   var x = document.getElementById(d);

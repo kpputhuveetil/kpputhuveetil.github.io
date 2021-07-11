@@ -1,26 +1,3 @@
-# - title: ""
-#   authors: 
-#   year: 2021
-#   type: conference
-#   venue: ICRA
-#   image: ../assets/images/assistive_gym.jpg
-#   id: 
-#   projectpage: 
-#   code: 
-#   bibtex: |
-#       @inproceedings{erickson2020assistive,
-#           title={Assistive gym: A physics simulation framework for assistive robotics},
-#           author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
-#           booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
-#           pages={10169--10176},
-#           year={2020},
-#           organization={IEEE}
-#       }
-#   abstract: ""
-#   awards: 
-#   video: 
-#   pdf: 
-
 # Find and Delete these: ’
 
 - title: "Assistive VR Gym: Using Interactions with Real People to Improve Virtual Assistive Robots"
@@ -278,49 +255,165 @@
   video: https://www.youtube.com/watch?v=Fb_SexsljLI
   pdf: https://arxiv.org/pdf/1709.09735.pdf
 
-- title: ""
-  authors: 
-  year: 2021
+- title: "Tracking Human Pose During Robot-Assisted Dressing using Single-Axis Capacitive Proximity Sensing"
+  authors: Zackory Erickson, Maggie Collier, Ariel Kapusta, and Charles C. Kemp
+  year: 2018
   type: conference
-  venue: ICRA
-  image: ../assets/images/assistive_gym.jpg
-  id: 
+  venue: RA-L
+  image: ../assets/images/cap.jpg
+  id: erickson2018tracking
   projectpage: 
   code: 
   bibtex: |
-      @inproceedings{erickson2020assistive,
-          title={Assistive gym: A physics simulation framework for assistive robotics},
-          author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
-          booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
-          pages={10169--10176},
-          year={2020},
+      @article{erickson2018tracking,
+          title={Tracking human pose during robot-assisted dressing using single-axis capacitive proximity sensing},
+          author={Erickson, Zackory and Collier, Maggie and Kapusta, Ariel and Kemp, Charles C},
+          journal={IEEE Robotics and Automation Letters},
+          volume={3},
+          number={3},
+          pages={2245--2252},
+          year={2018},
+          publisher={IEEE}
+      }
+  abstract: "Dressing is a fundamental task of everyday living and robots offer an opportunity to assist people with motor impairments. While several robotic systems have explored robot-assisted dressing, few have considered how a robot can manage errors in human pose estimation, or adapt to human motion in real time during dressing assistance. In addition, estimating pose changes due to human motion can be challenging with vision-based techniques since dressing is often intended to visually occlude the body with clothing. We present a method to track a person's pose in real time using capacitive proximity sensing. This sensing approach gives direct estimates of distance with low latency, has a high signal-to-noise ratio, and has low computational requirements. Using our method, a robot can adjust for errors in the estimated pose of a person and physically follow the contours and movements of the person while providing dressing assistance. As part of an evaluation of our method, the robot successfully pulled the sleeve of a hospital gown and a cardigan onto the right arms of 10 human participants, despite arm motions and large errors in the initially estimated pose of the person's arm. We also show that a capacitive sensor is unaffected by visual occlusion of the body and can sense a person's body through cotton clothing."
+  awards: 
+  video: https://www.youtube.com/watch?v=4HWUB-aiNZY
+  pdf: https://arxiv.org/pdf/1709.07957.pdf
+
+- title: "3D Human Pose Estimation on a Configurable Bed from a Pressure Image"
+  authors: Henry M. Clever, Ariel Kapusta, Daehyung Park, Zackory Erickson, Yash Chitalia, Charles C. Kemp
+  year: 2018
+  type: conference
+  venue: IROS
+  image: ../assets/images/forcemap.jpg
+  id: clever20183d
+  projectpage: 
+  code: https://github.com/gt-ros-pkg/hrl-assistive/tree/indigo-devel/hrl_pose_estimation
+  bibtex: |
+      @inproceedings{clever20183d,
+          title={3d human pose estimation on a configurable bed from a pressure image},
+          author={Clever, Henry M and Kapusta, Ariel and Park, Daehyung and Erickson, Zackory and Chitalia, Yash and Kemp, Charles C},
+          booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          pages={54--61},
+          year={2018},
           organization={IEEE}
       }
-  abstract: ""
+  abstract: "Robots have the potential to assist people in bed, such as in healthcare settings, yet bedding materials like sheets and blankets can make observation of the human body difficult for robots. A pressure-sensing mat on a bed can provide pressure images that are relatively insensitive to bedding materials. However, prior work on estimating human pose from pressure images has been restricted to 2D pose estimates and flat beds. In this work, we present two convolutional neural networks to estimate the 3D joint positions of a person in a configurable bed from a single pressure image. The first network directly outputs 3D joint positions, while the second outputs a kinematic model that includes estimated joint angles and limb lengths. We evaluated our networks on data from 17 human participants with two bed configurations: supine and seated. Our networks achieved a mean joint position error of 77 mm when tested with data from people outside the training set, outperforming several baselines. We also present a simple mechanical model that provides insight into ambiguity associated with limbs raised off of the pressure mat, and demonstrate that Monte Carlo dropout can be used to estimate pose confidence in these situations. Finally, we provide a demonstration in which a mobile manipulator uses our network's estimated kinematic model to reach a location on a person's body in spite of the person being seated in a bed and covered by a blanket."
+  awards: 
+  video: https://www.youtube.com/watch?v=vTUgBXaKf4g
+  pdf: https://arxiv.org/pdf/1804.07873.pdf
+
+- title: "Semi-Supervised Haptic Material Recognition for Robots using Generative Adversarial Networks"
+  authors: Zackory Erickson, Sonia Chernova, and Charles C. Kemp
+  year: 2017
+  type: conference
+  venue: CoRL
+  image: ../assets/images/pr2objects1.jpg
+  id: erickson2017semi
+  projectpage: 
+  code: https://github.com/Healthcare-Robotics/mr-gan
+  bibtex: |
+      @inproceedings{erickson2017semi,
+          title={Semi-supervised haptic material recognition for robots using generative adversarial networks},
+          author={Erickson, Zackory and Chernova, Sonia and Kemp, Charles C},
+          booktitle={Conference on Robot Learning},
+          pages={157--166},
+          year={2017},
+          organization={PMLR}
+      }
+  abstract: "Material recognition enables robots to incorporate knowledge of material properties into their interactions with everyday objects. For example, material recognition opens up opportunities for clearer communication with a robot, such as ""bring me the metal coffee mug"", and recognizing plastic versus metal is crucial when using a microwave or oven. However, collecting labeled training data with a robot is often more difficult than unlabeled data. We present a semi-supervised learning approach for material recognition that uses generative adversarial networks (GANs) with haptic features such as force, temperature, and vibration. Our approach achieves state-of-the-art results and enables a robot to estimate the material class of household objects with ∼90% accuracy when 92% of the training data are unlabeled. We explore how well this approach can recognize the material of new objects and we discuss challenges facing generalization. To motivate learning from unlabeled training data, we also compare results against several common supervised learning classifiers. In addition, we have released the dataset used for this work which consists of time-series haptic measurements from a robot that conducted thousands of interactions with 72 household objects."
   awards: 
   video: 
-  pdf: 
+  pdf: http://proceedings.mlr.press/v78/erickson17a/erickson17a.pdf
 
-- title: ""
-  authors: 
-  year: 2021
+- title: "What Does the Person Feel? Learning to Infer Applied Forces During Robot-Assisted Dressing"
+  authors: Zackory Erickson, Alexander Clegg, Wenhao Yu, Greg Turk, C. Karen Liu, and Charles C. Kemp
+  year: 2017
   type: conference
   venue: ICRA
-  image: ../assets/images/assistive_gym.jpg
-  id: 
+  image: ../assets/images/sim.jpg
+  id: erickson2017does
+  projectpage: 
+  code: https://github.com/gt-rad/learning-forces
+  bibtex: |
+      @inproceedings{erickson2017does,
+          title={What does the person feel? learning to infer applied forces during robot-assisted dressing},
+          author={Erickson, Zackory and Clegg, Alexander and Yu, Wenhao and Turk, Greg and Liu, C Karen and Kemp, Charles C},
+          booktitle={2017 IEEE International Conference on Robotics and Automation (ICRA)},
+          pages={6058--6065},
+          year={2017},
+          organization={IEEE}
+      }
+  abstract: "During robot-assisted dressing, a robot manipulates a garment in contact with a person's body. Inferring the forces applied to the person's body by the garment might enable a robot to provide more effective assistance and give the robot insight into what the person feels. However, complex mechanics govern the relationship between the robot's end effector and these forces. Using a physics-based simulation and data-driven methods, we demonstrate the feasibility of inferring forces across a person's body using only end effector measurements. Specifically, we present a long short-term memory (LSTM) network that at each time step takes a 9-dimensional input vector of force, torque, and velocity measurements from the robot's end effector and outputs a force map consisting of hundreds of inferred force magnitudes across the person's body. We trained and evaluated LSTMs on two tasks: pulling a hospital gown onto an arm and pulling shorts onto a leg. For both tasks, the LSTMs produced force maps that were similar to ground truth when visualized as heat maps across the limbs. We also evaluated their performance in terms of root-mean-square error. Their performance degraded when the end effector velocity was increased outside the training range, but generalized well to limb rotations. Overall, our results suggest that robots could learn to infer the forces people feel during robot-assisted dressing, although the extent to which this will generalize to the real world remains an open question."
+  awards: 
+  video: https://www.youtube.com/watch?v=j1ZusRxecg0
+  pdf: http://pwp.gatech.edu/hrl/wp-content/uploads/sites/231/2017/03/erickson2017-learning-forces.pdf
+
+- title: "Learning to Navigate Cloth using Haptics"
+  authors: Alexander Clegg, Wenhao Yu, Zackory Erickson, C. Karen Liu, and Greg Turk
+  year: 2017
+  type: conference
+  venue: IROS
+  image: ../assets/images/dresssim.jpg
+  id: clegg2017learning
   projectpage: 
   code: 
   bibtex: |
-      @inproceedings{erickson2020assistive,
-          title={Assistive gym: A physics simulation framework for assistive robotics},
-          author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
-          booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
-          pages={10169--10176},
-          year={2020},
+      @inproceedings{clegg2017learning,
+          title={Learning to navigate cloth using haptics},
+          author={Clegg, Alexander and Yu, Wenhao and Erickson, Zackory and Tan, Jie and Liu, C Karen and Turk, Greg},
+          booktitle={2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          pages={2799--2805},
+          year={2017},
           organization={IEEE}
       }
-  abstract: ""
+  abstract: "We present a controller that allows an armlike manipulator to navigate deformable cloth garments in simulation through the use of haptic information. The main challenge of such a controller is to avoid getting tangled in, tearing or punching through the deforming cloth. Our controller aggregates force information from a number of haptic-sensing spheres all along the manipulator for guidance. Based on haptic forces, each individual sphere updates its target location, and the conflicts that arise between this set of desired positions is resolved by solving an inverse kinematic problem with constraints. Reinforcement learning is used to train the controller for a single haptic-sensing sphere, where a training run is terminated (and thus penalized) when large forces are detected due to contact between the sphere and a simplified model of the cloth. In simulation, we demonstrate successful navigation of a robotic arm through a variety of garments, including an isolated sleeve, a jacket, a shirt, and shorts. Our controller out-performs two baseline controllers: one without haptics and another that was trained based on large forces between the sphere and cloth, but without early termination."
   awards: 
-  video: 
-  pdf: 
+  video: https://www.youtube.com/watch?v=iHqwZPKVd4A
+  pdf: https://ieeexplore.ieee.org/iel7/8119304/8202121/08206110.pdf
 
+- title: "A Multimodal Execution Monitor with Anomaly Classification for Robot-Assisted Feeding"
+  authors: Daehyung Park, Hokeun Kim, Yuuna Hoshi, Zackory Erickson, Ariel Kapusta, and Charles C. Kemp
+  year: 2017
+  type: conference
+  venue: IROS
+  image: ../assets/images/feedinghenry.jpg
+  id: park2017multimodal
+  projectpage: 
+  code: https://github.com/gt-ros-pkg/hrl-assistive/tree/indigo-devel/hrl_anomaly_detection
+  bibtex: |
+      @inproceedings{park2017multimodal,
+          title={A multimodal execution monitor with anomaly classification for robot-assisted feeding},
+          author={Park, Daehyung and Kim, Hokeun and Hoshi, Yuuna and Erickson, Zackory and Kapusta, Ariel and Kemp, Charles C},
+          booktitle={2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          pages={5406--5413},
+          year={2017},
+          organization={IEEE}
+      }
+  abstract: "Activities of daily living (ADLs) are important for quality of life. Robotic assistance offers the opportunity for people with disabilities to perform ADLs on their own. However, when a complex semi-autonomous system provides real-world assistance, occasional anomalies are likely to occur. Robots that can detect, classify and respond appropriately to common anomalies have the potential to provide more effective and safer assistance. We introduce a multimodal execution monitor to detect and classify anomalous executions when robots operate near humans. Our system builds on our past work on multimodal anomaly detection. Our new monitor classifies the type and cause of common anomalies using an artificial neural network. We implemented and evaluated our execution monitor in the context of robot-assisted feeding with a general-purpose mobile manipulator. In our evaluations, our monitor outperformed baseline methods from the literature. It succeeded in detecting 12 common anomalies from 8 able-bodied participants with 83% accuracy and classifying the types and causes of the detected anomalies with 90% and 81% accuracies, respectively. We then performed an in-home evaluation with Henry Evans, a person with severe quadriplegia. With our system, Henry successfully fed himself while the monitor detected, classified the types, and classified the causes of anomalies with 86%, 90%, and 54% accuracy, respectively."
+  awards: 
+  video: https://www.youtube.com/watch?v=KQlVSz3URnA
+  pdf: https://ieeexplore.ieee.org/iel7/8119304/8202121/08206437.pdf
+
+- title: "Multimodal Execution Monitoring for Anomaly Detection During Robot Manipulation"
+  authors: Daehyung Park, Zackory Erickson, Tapomayukh Bhattacharjee, and Charles C. Kemp
+  year: 2016
+  type: conference
+  venue: ICRA
+  image: ../assets/images/multimodalanomaly.jpg
+  id: park2016multimodal
+  projectpage: 
+  code: https://github.com/gt-ros-pkg/hrl-assistive/tree/indigo-devel/hrl_anomaly_detection
+  bibtex: |
+      @inproceedings{park2016multimodal,
+          title={Multimodal execution monitoring for anomaly detection during robot manipulation},
+          author={Park, Daehyung and Erickson, Zackory and Bhattacharjee, Tapomayukh and Kemp, Charles C},
+          booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)},
+          pages={407--414},
+          year={2016},
+          organization={IEEE}
+      }
+  abstract: "Online detection of anomalous execution can be valuable for robot manipulation, enabling robots to operate more safely, determine when a behavior is inappropriate, and otherwise exhibit more common sense. By using multiple complementary sensory modalities, robots could potentially detect a wider variety of anomalies, such as anomalous contact or a loud utterance by a human. However, task variability and the potential for false positives make online anomaly detection challenging, especially for long-duration manipulation behaviors. In this paper, we provide evidence for the value of multimodal execution monitoring and the use of a detection threshold that varies based on the progress of execution. Using a data-driven approach, we train an execution monitor that runs in parallel to a manipulation behavior. Like previous methods for anomaly detection, our method trains a hidden Markov model (HMM) using multimodal observations from non-anomalous executions. In contrast to prior work, our system also uses a detection threshold that changes based on the execution progress. We evaluated our approach with haptic, visual, auditory, and kinematic sensing during a variety of manipulation tasks performed by a PR2 robot. The tasks included pushing doors closed, operating switches, and assisting able-bodied participants with eating yogurt. In our evaluations, our anomaly detection method performed substantially better with multimodal monitoring than single modality monitoring. It also resulted in more desirable ROC curves when compared with other detection threshold methods from the literature, obtaining higher true positive rates for comparable false positive rates."
+  awards: 
+  video: https://www.youtube.com/watch?v=gLcPZQnDmkk
+  pdf: https://smartech.gatech.edu/bitstream/handle/1853/55815/icra16_2378_fi.pdf?sequence=1&isAllowed=y

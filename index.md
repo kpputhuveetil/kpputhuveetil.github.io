@@ -37,4 +37,4 @@ layout: page
 <h3>Extra links</h3>
 You can find a recording of my Robotics PhD Defense at Georgia Tech here: <a href="https://youtu.be/3DYv8SlaP2w">https://youtu.be/3DYv8SlaP2w</a>
 
-In 2016, I participated in the 4th Heidelberg Laureate Forum. Here are <a href="http://zackory.com/heidelberg-laureate-forum/">some photos from the 4th HLF</a>.
+In 2016, I participated in the 4th Heidelberg Laureate Forum. Here are <a href="https://zackory.github.io/hlf4/">some photos from the 4th HLF</a>.

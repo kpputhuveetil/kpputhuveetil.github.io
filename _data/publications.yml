@@ -1,5 +1,26 @@
 # Find and Delete these: ’
 
+- title: "Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction"
+  authors: Zackory Erickson, Henry M. Clever, Vamsee Gangaram, Eliot Xing, Greg Turk, C. Karen Liu, Charles C. Kemp
+  year: 2021
+  type: conference
+  venue: arXiv preprint
+  image: ../assets/images/capservoing.jpg
+  id: erickson2021characterizing
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{erickson2021characterizing,
+          title={Characterizing Multidimensional Capacitive Servoing for Physical Human-Robot Interaction},
+          author={Erickson, Zackory and Clever, Henry M and Gangaram, Vamsee and Xing, Eliot and Turk, Greg and Liu, C Karen and Kemp, Charles C},
+          journal={arXiv preprint arXiv:2105.11582},
+          year={2021}
+      }
+  abstract: "Towards the goal of robots performing robust and intelligent physical interactions with people, it is crucial that robots are able to accurately sense the human body, follow trajectories around the body, and track human motion. This study introduces a capacitive servoing control scheme that allows a robot to sense and navigate around human limbs during close physical interactions. Capacitive servoing leverages temporal measurements from a multi-electrode capacitive sensor array mounted on a robot's end effector to estimate the relative position and orientation (pose) of a nearby human limb. Capacitive servoing then uses these human pose estimates from a data-driven pose estimator within a feedback control loop in order to maneuver the robot's end effector around the surface of a human limb. We provide a design overview of capacitive sensors for human-robot interaction and then investigate the performance and generalization of capacitive servoing through an experiment with 12 human participants. The results indicate that multidimensional capacitive servoing enables a robot's end effector to move proximally or distally along human limbs while adapting to human pose. Using a cross-validation experiment, results further show that capacitive servoing generalizes well across people with different body size."
+  awards: 
+  video: 
+  pdf: https://arxiv.org/pdf/2105.11582.pdf
+
 - title: "Assistive VR Gym: Using Interactions with Real People to Improve Virtual Assistive Robots"
   authors: Zackory Erickson*, Yijun Gu*, and Charles C. Kemp
   year: 2020

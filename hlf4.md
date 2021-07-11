@@ -4,6 +4,7 @@ title: 4th Heidelberg Laureate Forum (2016)
 permalink: /hlf4/
 ---
 
+<br>
 <img src="../assets/images/hlf/ivan_sutherland.jpg" alt="Ivan Sutherland">
 <br>
 

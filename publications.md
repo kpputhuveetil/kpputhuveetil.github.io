@@ -19,7 +19,7 @@ function showhide(d) {
 {% for pub in site.data.publications %}
     {% assign authors = {{pub.authors}} | split: ", " %}
     <tr>
-        <td width="250" height="100">
+        <td width="200" height="100">
             <img src="{{pub.image}}" img width="250">
         </td>
         <td><h6><a href="{{pub.pdf}}">{{pub.title}}</a></h6>

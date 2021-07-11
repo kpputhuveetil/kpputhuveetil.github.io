@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+<h4><a href="https://scholar.google.com/citations?user=wElkTtIAAAAJ&hl=en">Google Scholar</a></h4>
+
 <script>
 function showhide(d) {
   var x = document.getElementById(d);

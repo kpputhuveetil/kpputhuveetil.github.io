@@ -1,3 +1,94 @@
+# - title: ""
+#   authors: 
+#   year: 2021
+#   type: conference
+#   venue: ICRA
+#   image: ../assets/images/assistive_gym.jpg
+#   id: 
+#   projectpage: 
+#   code: 
+#   bibtex: |
+#       @inproceedings{erickson2020assistive,
+#           title={Assistive gym: A physics simulation framework for assistive robotics},
+#           author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
+#           booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+#           pages={10169--10176},
+#           year={2020},
+#           organization={IEEE}
+#       }
+#   abstract: ""
+#   awards: 
+#   video: 
+#   pdf: 
+
+# Find and Delete these: ’
+
+- title: "Assistive VR Gym: Using Interactions with Real People to Improve Virtual Assistive Robots"
+  authors: Zackory Erickson*, Yijun Gu*, and Charles C. Kemp
+  year: 2020
+  type: conference
+  venue: RO-MAN
+  image: ../assets/images/avrgym.jpg
+  id: erickson2020assistivevr
+  projectpage: 
+  code: https://github.com/Healthcare-Robotics/assistive-vr-gym
+  bibtex: |
+      @inproceedings{erickson2020assistivevr,
+          title={Assistive VR Gym: Interactions with Real People to Improve Virtual Assistive Robots},
+          author={Erickson, Zackory and Gu, Yijun and Kemp, Charles C},
+          booktitle={2020 29th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+          pages={299--306},
+          organization={IEEE}
+      }
+  abstract: "Versatile robotic caregivers could benefit millions of people worldwide, including older adults and people with disabilities. Recent work has explored how robotic caregivers can learn to interact with people through physics simulations, yet transferring what has been learned to real robots remains challenging. Virtual reality (VR) has the potential to help bridge the gap between simulations and the real world. We present Assistive VR Gym (AVR Gym), which enables real people to interact with virtual assistive robots. We also provide evidence that AVR Gym can help researchers improve the performance of simulation-trained assistive robots with real people. Prior to AVR Gym, we trained robot control policies (Original Policies) solely in simulation for four robotic caregiving tasks (robot-assisted feeding, drinking, itch scratching, and bed bathing) with two simulated robots (PR2 from Willow Garage and Jaco from Kinova). With AVR Gym, we developed Revised Policies based on insights gained from testing the Original policies with real people. Through a formal study with eight participants in AVR Gym, we found that the Original policies performed poorly, the Revised policies performed significantly better, and that improvements to the biomechanical models used to train the Revised policies resulted in simulated people that better match real participants. Notably, participants significantly disagreed that the Original policies were successful at assistance, but significantly agreed that the Revised policies were successful at assistance. Overall, our results suggest that VR can be used to improve the performance of simulation-trained control policies with real people without putting people at risk, thereby serving as a valuable stepping stone to real robotic assistance."
+  awards: 
+  video: https://www.youtube.com/watch?v=tcyPMkAphNs
+  pdf: https://arxiv.org/pdf/2007.04959.pdf
+
+- title: "Multimodal Material Classification for Robots using Spectroscopy and High Resolution Texture Imaging"
+  authors: Zackory Erickson, Eliot Xing, Bharat Srirangam, Sonia Chernova, and Charles C. Kemp
+  year: 2020
+  type: conference
+  venue: IROS
+  image: ../assets/images/spectrovision.jpg
+  id: erickson2020multimodal
+  projectpage: 
+  code: https://github.com/Healthcare-Robotics/spectrovision
+  bibtex: |
+      @inproceedings{erickson2020multimodal,
+          title={Multimodal material classification for robots using spectroscopy and high resolution texture imaging},
+          author={Erickson, Zackory and Xing, Eliot and Srirangam, Bharat and Chernova, Sonia and Kemp, Charles C},
+          booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          pages={10452--10459},
+          organization={IEEE}
+      }
+  abstract: "Material recognition can help inform robots about how to properly interact with and manipulate real-world objects. In this paper, we present a multimodal sensing technique, leveraging near-infrared spectroscopy and close-range high resolution texture imaging, that enables robots to estimate the materials of household objects. We release a dataset of high resolution texture images and spectral measurements collected from a mobile manipulator that interacted with 144 household objects. We then present a neural network architecture that learns a compact multimodal representation of spectral measurements and texture images. When generalizing material classification to new objects, we show that this multimodal representation enables a robot to recognize materials with greater performance as compared to prior state-of-the-art approaches. Finally, we present how a robot can combine this high resolution local sensing with images from the robot's head-mounted camera to achieve accurate material classification over a scene of objects on a table."
+  awards: 
+  video: https://www.youtube.com/watch?v=uVNMm_6-6Rc
+  pdf: https://arxiv.org/pdf/2004.01160.pdf
+
+- title: "Bodies at Rest: 3D Human Pose and Shape Estimation from a Pressure Image using Synthetic Data"
+  authors: Henry M. Clever, Zackory Erickson, Ariel Kapusta, Greg Turk, C. Karen Liu, and Charles C. Kemp
+  year: 2020
+  type: conference
+  venue: CVPR
+  image: ../assets/images/bodies.jpg
+  id: clever2020bodies
+  projectpage: 
+  code: https://github.com/Healthcare-Robotics/bodies-at-rest
+  bibtex: |
+      @inproceedings{clever2020bodies,
+          title={Bodies at rest: 3d human pose and shape estimation from a pressure image using synthetic data},
+          author={Clever, Henry M and Erickson, Zackory and Kapusta, Ariel and Turk, Greg and Liu, Karen and Kemp, Charles C},
+          booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+          pages={6215--6224},
+          year={2020}
+      }
+  abstract: "People spend a substantial part of their lives at rest in bed. 3D human pose and shape estimation for this activity would have numerous beneficial applications, yet line-of-sight perception is complicated by occlusion from bedding. Pressure sensing mats are a promising alternative, but training data is challenging to collect at scale. We describe a physics-based method that simulates human bodies at rest in a bed with a pressure sensing mat, and present PressurePose, a synthetic dataset with 206K pressure images with 3D human poses and shapes. We also present PressureNet, a deep learning model that estimates human pose and shape given a pressure image and gender. PressureNet incorporates a pressure map reconstruction (PMR) network that models pressure image generation to promote consistency between estimated 3D body models and pressure image input. In our evaluations, PressureNet performed well with real data from participants in diverse poses, even though it had only been trained with synthetic data. When we ablated the PMR network, performance dropped substantially."
+  awards: (Accepted for Oral Presentation)
+  video: https://www.youtube.com/watch?v=haaQvKfG6pM
+  pdf: https://openaccess.thecvf.com/content_CVPR_2020/papers/Clever_Bodies_at_Rest_3D_Human_Pose_and_Shape_Estimation_From_CVPR_2020_paper.pdf
+
 - title: "Assistive Gym: A Physics Simulation Framework for Assistive Robotics"
   authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
   year: 2020
@@ -17,18 +108,185 @@
           organization={IEEE}
       }
   abstract: "Autonomous robots have the potential to serve as versatile caregivers that improve quality of life for millions of people worldwide. Yet, conducting research in this area presents numerous challenges, including the risks of physical interaction between people and robots. Physics simulations have been used to optimize and train robots for physical assistance, but have typically focused on a single task. In this paper, we present Assistive Gym, an open source physics simulation framework for assistive robots that models multiple tasks. It includes six simulated environments in which a robotic manipulator can attempt to assist a person with activities of daily living (ADLs): itch scratching, drinking, feeding, body manipulation, dressing, and bathing. Assistive Gym models a person's physical capabilities and preferences for assistance, which are used to provide a reward function. We present baseline policies trained using reinforcement learning for four different commercial robots in the six environments. We demonstrate that modeling human motion results in better assistance and we compare the performance of different robots. Overall, we show that Assistive Gym is a promising tool for assistive robotics research."
+  awards: 
   video: https://www.youtube.com/watch?v=EFKqNKO3P60
   pdf: https://arxiv.org/pdf/1910.04700.pdf
 
-- title: "Assistive Gym: A Physics Simulation Framework for Assistive Robotics"
-  authors: Zackory Erickson, Vamsee Gangaram, Ariel Kapusta, C. Karen Liu, and Charles C. Kemp
+- title: "Learning to Collaborate from Simulation for Robot-Assisted Dressing"
+  authors: Alexander Clegg, Zackory Erickson, Patrick Grady, Greg Turk, Charles C. Kemp, and C. Karen Liu
   year: 2020
+  type: journal
+  venue: RA-L
+  image: ../assets/images/collaborate.jpg
+  id: clegg2020learning
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{clegg2020learning,
+          title={Learning to collaborate from simulation for robot-assisted dressing},
+          author={Clegg, Alexander and Erickson, Zackory and Grady, Patrick and Turk, Greg and Kemp, Charles C and Liu, C Karen},
+          journal={IEEE Robotics and Automation Letters},
+          volume={5},
+          number={2},
+          pages={2746--2753},
+          year={2020},
+          publisher={IEEE}
+      }
+  abstract: "We investigated the application of haptic feedback control and deep reinforcement learning (DRL) to robot-assisted dressing. Our method uses DRL to simultaneously train human and robot control policies as separate neural networks using physics simulations. In addition, we modeled variations in human impairments relevant to dressing, including unilateral muscle weakness, involuntary arm motion, and limited range of motion. Our approach resulted in control policies that successfully collaborate in a variety of simulated dressing tasks involving a hospital gown and a T-shirt. In addition, our approach resulted in policies trained in simulation that enabled a real PR2 robot to dress the arm of a humanoid robot with a hospital gown. We found that training policies for specific impairments dramatically improved performance; that controller execution speed could be scaled after training to reduce the robot's speed without steep reductions in performance; that curriculum learning could be used to lower applied forces; and that multi-modal sensing, including a simulated capacitive sensor, improved performance."
+  awards: 
+  video: https://www.youtube.com/watch?v=AW9XV62ahpc
+  pdf: https://arxiv.org/pdf/1909.06682.pdf
+
+- title: "Active Robot-Assisted Feeding with a General-Purpose Mobile Manipulator: Design, Evaluation, and Lessons Learned"
+  authors: Daehyung Park, Yuuna Hoshi, Harshal P. Mahajan, Ho Keun Kim, Zackory Erickson, Wendy A. Rogers, Charles C. Kemp
+  year: 2020
+  type: journal
+  venue: Robotics and Autonomous Systems
+  image: ../assets/images/feeding.jpg
+  id: park2020active
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{park2020active,
+          title={Active robot-assisted feeding with a general-purpose mobile manipulator: Design, evaluation, and lessons learned},
+          author={Park, Daehyung and Hoshi, Yuuna and Mahajan, Harshal P and Kim, Ho Keun and Erickson, Zackory and Rogers, Wendy A and Kemp, Charles C},
+          journal={Robotics and Autonomous Systems},
+          volume={124},
+          pages={103344},
+          year={2020},
+          publisher={Elsevier}
+      }
+  abstract: "Eating is an essential activity of daily living (ADL) for staying healthy and living at home independently. Although numerous assistive devices have been introduced, many people with disabilities are still restricted from independent eating due to the devices' physical or perceptual limitations. In this work, we present a new meal-assistance system and evaluations of this system with people with motor impairments. We also discuss learned lessons and design insights based on the evaluations. The meal-assistance system uses a general-purpose mobile manipulator, a Willow Garage PR2, which has the potential to serve as a versatile form of assistive technology. Our active feeding framework enables the robot to autonomously deliver food to the user's mouth, reducing the need for head movement by the user. The user interface, visually-guided behaviors, and safety tools allow people with severe motor impairments to successfully use the system. We evaluated our system with a total of 10 able-bodied participants and 9 participants with motor impairments. Both groups of participants successfully ate various foods using the system and reported high rates of success for the system's autonomous behaviors. In general, participants who operated the system reported that it was comfortable, safe, and easy-to-use."
+  awards: 
+  video: https://www.youtube.com/watch?v=I5gqtk6Cln8
+  pdf: https://arxiv.org/pdf/1904.03568.pdf
+
+- title: "Multidimensional Capacitive Sensing for Robot-Assisted Dressing and Bathing"
+  authors: Zackory Erickson, Henry M. Clever, Vamsee Gangaram, Greg Turk, C. Karen Liu, and Charles C. Kemp
+  year: 2019
+  type: conference
+  venue: ICORR
+  image: ../assets/images/multicap.jpg
+  id: erickson2019multidimensional
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{erickson2019multidimensional,
+          title={Multidimensional capacitive sensing for robot-assisted dressing and bathing},
+          author={Erickson, Zackory and Clever, Henry M and Gangaram, Vamsee and Turk, Greg and Liu, C Karen and Kemp, Charles C},
+          booktitle={2019 IEEE 16th International Conference on Rehabilitation Robotics (ICORR)},
+          pages={224--231},
+          year={2019},
+          organization={IEEE}
+      }
+  abstract: "Robotic assistance presents an opportunity to benefit the lives of many people with physical disabilities, yet accurately sensing the human body and tracking human motion remain difficult for robots. We present a multidimensional capacitive sensing technique that estimates the local pose of a human limb in real time. A key benefit of this sensing method is that it can sense the limb through opaque materials, including fabrics and wet cloth. Our method uses a multielectrode capacitive sensor mounted to a robot's end effector. A neural network model estimates the position of the closest point on a person's limb and the orientation of the limb's central axis relative to the sensor's frame of reference. These pose estimates enable the robot to move its end effector with respect to the limb using feedback control. We demonstrate that a PR2 robot can use this approach with a custom six electrode capacitive sensor to assist with two activities of daily living—dressing and bathing. The robot pulled the sleeve of a hospital gown onto able-bodied participants' right arms, while tracking human motion. When assisting with bathing, the robot moved a soft wet washcloth to follow the contours of able-bodied participants' limbs, cleaning their surfaces. Overall, we found that multidimensional capacitive sensing presents a promising approach for robots to sense and track the human body during assistive tasks that require physical human-robot interaction."
+  awards: (Best Student Paper Award)
+  video: https://www.youtube.com/watch?v=3qKkkx9wshY
+  pdf: https://arxiv.org/pdf/1904.02111.pdf
+
+- title: "Classification of Household Materials via Spectroscopy"
+  authors: Zackory Erickson, Nathan Luskey, Sonia Chernova, and Charles C. Kemp
+  year: 2019
+  type: journal
+  venue: RA-L
+  image: ../assets/images/spectroscopy.jpg
+  id: erickson2019classification
+  projectpage: 
+  code: https://github.com/Healthcare-Robotics/smm50
+  bibtex: |
+      @article{erickson2019classification,
+          title={Classification of household materials via spectroscopy},
+          author={Erickson, Zackory and Luskey, Nathan and Chernova, Sonia and Kemp, Charles C},
+          journal={IEEE Robotics and Automation Letters},
+          volume={4},
+          number={2},
+          pages={700--707},
+          year={2019},
+          publisher={IEEE}
+      }
+  abstract: "Recognizing an object's material can inform a robot on the object's fragility or appropriate use. To estimate an object's material during manipulation, many prior works have explored the use of haptic sensing. In this paper, we explore a technique for robots to estimate the materials of objects using spectroscopy. We demonstrate that spectrometers provide several benefits for material recognition, including fast response times and accurate measurements with low noise. Furthermore, spectrometers do not require direct contact with an object. To explore this, we collected a dataset of spectral measurements from two commercially available spectrometers during which a robotic platform interacted with 50 flat material objects, and we show that a neural network model can accurately analyze these measurements. Due to the similarity between consecutive spectral measurements, our model achieved a material classification accuracy of 94.6% when given only one spectral sample per object. Similar to prior works with haptic sensors, we found that generalizing material recognition to new objects posed a greater challenge, for which we achieved an accuracy of 79.1% via leave-one-object-out cross-validation. Finally, we demonstrate how a PR2 robot can leverage spectrometers to estimate the materials of everyday objects found in the home. From this work, we find that spectroscopy poses a promising approach for material classification during robotic manipulation."
+  awards: (Best Paper Award in Service Robotics finalist at ICRA 2019)
+  video: https://www.youtube.com/watch?v=fBv_xEai2AU
+  pdf: https://arxiv.org/pdf/1805.04051.pdf
+
+- title: "Personalized Collaborative Plans for Robot-Assisted Dressing via Optimization and Simulation"
+  authors: Ariel Kapusta, Zackory Erickson, Henry M. Clever, Wenhao Yu, C. Karen Liu, Greg Turk, and Charles C. Kemp
+  year: 2019
+  type: journal
+  venue: AURO
+  image: ../assets/images/toorad.jpg
+  id: kapusta2019personalized
+  projectpage: 
+  code: 
+  bibtex: |
+      @article{kapusta2019personalized,
+          title={Personalized collaborative plans for robot-assisted dressing via optimization and simulation},
+          author={Kapusta, Ariel and Erickson, Zackory and Clever, Henry M and Yu, Wenhao and Liu, C Karen and Turk, Greg and Kemp, Charles C},
+          journal={Autonomous Robots},
+          volume={43},
+          number={8},
+          pages={2183--2207},
+          year={2019},
+          publisher={Springer}
+      }
+  abstract: "Robots could be a valuable tool for helping with dressing but determining how a robot and a person with disabilities can collaborate to complete the task is challenging. We present task optimization of robot-assisted dressing (TOORAD), a method for generating a plan that consists of actions for both the robot and the person. TOORAD uses a multilevel optimization framework with heterogeneous simulations. The simulations model the physical interactions between the garment and the person being dressed, as well as the geometry and kinematics of the robot, human, and environment. Notably, the models for the human are personalized for an individual's geometry and physical capabilities. TOORAD searches over a constrained action space that interleaves the motions of the person and the robot with the person remaining still when the robot moves and vice versa. In order to adapt to real-world variation, TOORAD incorporates a measure of robot dexterity in its optimization, and the robot senses the person's body with a capacitive sensor to adapt its planned end effector trajectories. To evaluate TOORAD and gain insight into robot-assisted dressing, we conducted a study with six participants with physical disabilities who have difficulty dressing themselves. In the first session, we created models of the participants and surveyed their needs, capabilities, and views on robot-assisted dressing. TOORAD then found personalized plans and generated instructional visualizations for four of the participants, who returned for a second session during which they successfully put on both sleeves of a hospital gown with assistance from the robot. Overall, our work demonstrates the feasibility of generating personalized plans for robot-assisted dressing via optimization and physics-based simulation."
+  awards: 
+  video: https://www.youtube.com/watch?v=BJSPlucGwmE
+  pdf: https://link.springer.com/article/10.1007/s10514-019-09865-0
+
+- title: "Autonomous Tool Construction Using Part Shape and Attachment Prediction"
+  authors: Lakshmi Nair, Nithin Srikanth, Zackory Erickson, Sonia Chernova
+  year: 2019
+  type: conference
+  venue: RSS
+  image: ../assets/images/pierce.jpg
+  id: nair2019autonomous
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{nair2019autonomous,
+          title={Multidimensional capacitive sensing for robot-assisted dressing and bathing},
+          title={Autonomous Tool Construction Using Part Shape and Attachment Prediction.},
+          author={Nair, Lakshmi and Erickson, Zackory M and Chernova, Sonia}
+          year={2019}
+      }
+  abstract: "This work explores the problem of robot tool construction - creating tools from parts available in the environment. We advance the state-of-the-art in robotic tool construction by introducing an approach that enables the robot to construct a wider range of tools with greater computational efficiency. Specifically, given an action that the robot wishes to accomplish and a set of building parts available to the robot, our approach reasons about the shape of the parts and potential ways of attaching them, generating a ranking of part combinations that the robot then uses to construct and test the target tool. We validate our approach on the construction of five tools using a physical 7-DOF robot arm."
+  awards: 
+  video: https://www.youtube.com/watch?v=1XhS3Ljduts
+  pdf: http://www.roboticsproceedings.org/rss15/p09.pdf
+
+- title: "Deep Haptic Model Predictive Control for Robot-Assisted Dressing"
+  authors: Zackory Erickson, Henry M. Clever, Greg Turk, C. Karen Liu, and Charles C. Kemp
+  year: 2018
+  type: conference
+  venue: ICRA
+  image: ../assets/images/mpc.jpg
+  id: erickson2018deep
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{erickson2018deep,
+          title={Deep haptic model predictive control for robot-assisted dressing},
+          author={Erickson, Zackory and Clever, Henry M and Turk, Greg and Liu, C Karen and Kemp, Charles C},
+          booktitle={2018 IEEE international conference on robotics and automation (ICRA)},
+          pages={4437--4444},
+          year={2018},
+          organization={IEEE}
+      }
+  abstract: "Robot-assisted dressing offers an opportunity to benefit the lives of many people with disabilities, such as some older adults. However, robots currently lack common sense about the physical implications of their actions on people. The physical implications of dressing are complicated by non-rigid garments, which can result in a robot indirectly applying high forces to a person's body. We present a deep recurrent model that, when given a proposed action by the robot, predicts the forces a garment will apply to a person's body. We also show that a robot can provide better dressing assistance by using this model with model predictive control. The predictions made by our model only use haptic and kinematic observations from the robot's end effector, which are readily attainable. Collecting training data from real world physical human-robot interaction can be time consuming, costly, and put people at risk. Instead, we train our predictive model using data collected in an entirely self-supervised fashion from a physics-based simulation. We evaluated our approach with a PR2 robot that attempted to pull a hospital gown onto the arms of 10 human participants. With a 0.2s prediction horizon, our controller succeeded at high rates and lowered applied force while navigating the garment around a persons fist and elbow without getting caught. Shorter prediction horizons resulted in significantly reduced performance with the sleeve catching on the participants' fists and elbows, demonstrating the value of our model's predictions. These behaviors of mitigating catches emerged from our deep predictive model and the controller objective function, which primarily penalizes high forces."
+  awards: 
+  video: https://www.youtube.com/watch?v=Fb_SexsljLI
+  pdf: https://arxiv.org/pdf/1709.09735.pdf
+
+- title: ""
+  authors: 
+  year: 2021
   type: conference
   venue: ICRA
   image: ../assets/images/assistive_gym.jpg
-  id: erickson2020assistive2
-  projectpage: https://github.com/Healthcare-Robotics/assistive-gym
-  code: https://github.com/Healthcare-Robotics/assistive-gym
+  id: 
+  projectpage: 
+  code: 
   bibtex: |
       @inproceedings{erickson2020assistive,
           title={Assistive gym: A physics simulation framework for assistive robotics},
@@ -38,7 +296,31 @@
           year={2020},
           organization={IEEE}
       }
-  abstract: "Autonomous robots have the potential to serve as versatile caregivers that improve quality of life for millions of people worldwide. Yet, conducting research in this area presents numerous challenges, including the risks of physical interaction between people and robots. Physics simulations have been used to optimize and train robots for physical assistance, but have typically focused on a single task. In this paper, we present Assistive Gym, an open source physics simulation framework for assistive robots that models multiple tasks. It includes six simulated environments in which a robotic manipulator can attempt to assist a person with activities of daily living (ADLs): itch scratching, drinking, feeding, body manipulation, dressing, and bathing. Assistive Gym models a person's physical capabilities and preferences for assistance, which are used to provide a reward function. We present baseline policies trained using reinforcement learning for four different commercial robots in the six environments. We demonstrate that modeling human motion results in better assistance and we compare the performance of different robots. Overall, we show that Assistive Gym is a promising tool for assistive robotics research."
-  video: https://www.youtube.com/watch?v=EFKqNKO3P60
-  pdf: https://arxiv.org/pdf/1910.04700.pdf
-    
+  abstract: ""
+  awards: 
+  video: 
+  pdf: 
+
+- title: ""
+  authors: 
+  year: 2021
+  type: conference
+  venue: ICRA
+  image: ../assets/images/assistive_gym.jpg
+  id: 
+  projectpage: 
+  code: 
+  bibtex: |
+      @inproceedings{erickson2020assistive,
+          title={Assistive gym: A physics simulation framework for assistive robotics},
+          author={Erickson, Zackory and Gangaram, Vamsee and Kapusta, Ariel and Liu, C Karen and Kemp, Charles C},
+          booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+          pages={10169--10176},
+          year={2020},
+          organization={IEEE}
+      }
+  abstract: ""
+  awards: 
+  video: 
+  pdf: 
+

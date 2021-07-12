@@ -271,7 +271,8 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    /*padding: ($spacing-unit / 3) ($spacing-unit / 2);*/
+    padding: ($spacing-unit / 2) ($spacing-unit / 2) ($spacing-unit / 6);
   }
   th {
     background-color: $table-header-bg-color;

@@ -8,7 +8,7 @@
 layout: page
 ---
 
-<img src="assets/images/Zackory_pr2.jpg" alt="Zackory Erickson photo">
+<img src="assets/images/Zackory_pr2.jpg" alt="Zackory Erickson">
 
 <p>
   <br>

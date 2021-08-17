@@ -40,7 +40,7 @@ Please check my calendar to see if I am available before suggesting a meeting ti
 
 **Office**: [Newell-Simon Hall](https://map.concept3d.com/?id=192#!m/15786) 4627
 
-**Address**
+**Address**  
 Carnegie Mellon University  
 Robotics Institute  
 5000 Forbes Ave  

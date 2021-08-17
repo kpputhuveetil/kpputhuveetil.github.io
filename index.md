@@ -27,14 +27,27 @@ layout: page
 
 <hr>
 
-<h3>News</h3>
+### News
 <ul>
   <li>Organizing an ICRA 2021 workshop <a href="https://sites.gatech.edu/learning-caregiving-icra2021/">Learning for Caregiving Robots</a></li>
 </ul>
 
 <hr>
 
-<h3>Extra links</h3>
+### Contact
+**Calendar**: [Free/busy Calendar](https://calendar.google.com/calendar/embed?src=zerickso%40andrew.cmu.edu&ctz=America%2FNew_York&mode=WEEK)
+
+**Office**: [Newell-Simon Hall](https://map.concept3d.com/?id=192#!m/15786) 4627
+
+**Address**
+Carnegie Mellon University
+Robotics Institute
+5000 Forbes Ave
+Pittsburgh, PA 15213 USA
+
+<hr>
+
+### Extra links
 You can find a recording of my Robotics PhD Defense at Georgia Tech here: <a href="https://youtu.be/3DYv8SlaP2w">https://youtu.be/3DYv8SlaP2w</a>
 
 In 2016, I participated in the 4th Heidelberg Laureate Forum. Here are <a href="https://zackory.github.io/hlf4/">some photos from the 4th HLF</a>.

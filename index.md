@@ -35,14 +35,15 @@ layout: page
 <hr>
 
 ### Contact
-**Calendar**: [Free/busy Calendar](https://calendar.google.com/calendar/embed?src=zerickso%40andrew.cmu.edu&ctz=America%2FNew_York&mode=WEEK)
+**Calendar**: [Free/busy Calendar](https://calendar.google.com/calendar/embed?src=zerickso%40andrew.cmu.edu&ctz=America%2FNew_York&mode=WEEK)  
+Please check my calendar to see if I am available before suggesting a meeting time.
 
 **Office**: [Newell-Simon Hall](https://map.concept3d.com/?id=192#!m/15786) 4627
 
 **Address**
-Carnegie Mellon University
-Robotics Institute
-5000 Forbes Ave
+Carnegie Mellon University  
+Robotics Institute  
+5000 Forbes Ave  
 Pittsburgh, PA 15213 USA
 
 <hr>

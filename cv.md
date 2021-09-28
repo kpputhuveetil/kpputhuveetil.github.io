@@ -4,4 +4,4 @@ title: CV
 permalink: /cv/
 ---
 
-<meta http-equiv="refresh" content="0; URL=../assets/Zackory_Erickson_CV.pdf" />
+<meta http-equiv="refresh" content="0; URL=../assets/kpp_CV_fall2021.pdf" />

@@ -24,7 +24,7 @@ function showhide(d) {
         <td width="200" height="100">
             <img src="{{pub.image}}" img width="250">
         </td>
-        <td><h6><a href="{{pub.pdf}}">{{pub.title}}</a></h6>
+        <td><h6><a href="{{pub.link}}">{{pub.title}}</a></h6>
             <div style="line-height:50%;">
                 <br>
             </div>

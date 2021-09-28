@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-<h4><a href="https://scholar.google.com/citations?user=wElkTtIAAAAJ&hl=en">Google Scholar</a></h4>
+<h4><a href="https://scholar.google.com/citations?hl=en&user=tfW37OYAAAAJ">Google Scholar</a></h4>
 
 <script>
 function showhide(d) {

@@ -4,5 +4,5 @@ title: Bio
 permalink: /bio/
 ---
 
-# Short Biography
+## Short Biography
 I am a fourth-year undergraduate student at Virginia Commonwealth University majoring in Biomedical Engineering. 

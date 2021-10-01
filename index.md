@@ -19,7 +19,7 @@ layout: page
 
 ## News
 
-**10/11/21:** I am joining the Robotic Caregiving and Human Interaction Lab (RCHI), led by [Dr. Zackory Erickson](https://zackory.com/), at the Robotics Institute at Carnegie Mellon University! I will be working remotely to continue my previous research into robotic bedding manipulation around people.
+**10/11/21:** I am joining the [Robotic Caregiving and Human Interaction Lab (RCHI)](https://rchi-lab.github.io/), led by [Dr. Zackory Erickson](https://zackory.com/), at the Robotics Institute at Carnegie Mellon University! I will be working remotely to continue my previous research into robotic bedding manipulation around people.
 
 **9/9/21:** I submitted my first-ever first author paper, based on my summer work as part of the SURE Robotics REU, for review! We submitted the paper for consideration in RA-L and, by extension, ICRA. The preprint version the paper is available at [ArXiv](https://arxiv.org/abs/2109.04930).
 

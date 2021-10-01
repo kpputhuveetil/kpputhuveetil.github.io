@@ -12,7 +12,7 @@ layout: page
 
 <p>
   <br>
-  Hello! I am a fourth-year undergraduate student at Virginia Commonwealth University majoring in Biomedical Engineering. My general research interests include assistive and rehabilitation robotics, as well as human-robot interaction. This Fall, I am preparing to apply to PhD programs in Robotics for admission in Fall 2022.
+  Hello! I am a fourth-year undergraduate student at Virginia Commonwealth University majoring in Biomedical Engineering. My general research interests include assistive and rehabilitation robotics, as well as human-robot interaction. This semester, I am preparing to apply to PhD programs in Robotics for admission in Fall 2022.
 </p>
 
 <hr>

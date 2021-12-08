@@ -1,3 +1,4 @@
+# Find and Delete these: ’
 - title: "Bodies Uncovered: Learning to Manipulate Real Blankets Around People via Physics Simulations"
   authors: Kavya Puthuveetil, Charles C. Kemp, and Zackory Erickson
   year: 2021
@@ -20,13 +21,12 @@
   link: https://arxiv.org/abs/2109.04930
   pdf: https://arxiv.org/pdf/2109.04930.pdf
 
-# Find and Delete these: ’
 - title: "Brain-controlled Assistive Robotics and Prosthetics"
   authors: Kavya Puthuveetil and Dean Krusienski
   year: 2021
   type: preprint book chapter
-  venue:
-  image: ../assets/images/bci_robotics.jpg
+  venue: Robotics in Physical Medicine and Rehabilitation, 1st edition (preprint)
+  image: ../assets/images/bci_robotics.png
   id: puthuveetil2021bci
   projectpage: 
   code:
@@ -38,7 +38,7 @@
           publisher={Elsevier}
           year={2021}
       }
-  abstract: "Because the impetus for BCIs was to restore, replace, or supplement lost function, much of the early work was focused on controlling motor prostheses, orthotics, and assistive devices. Ideally, the ultimate objective is to completely restore natural motor function that has been lost by the user.  However, approaching such naturalistic and transparent control in practice requires precise measurement of large-scale neural activity that can currently only be achieved via invasive measurements of brain activity (e.g., surgical implantation of high-density electrodes into the brain)."
+  abstract: "This chapter provides an overview of prior and prospective work related to the control of assistive robotics and prostheses via direct measurements of brain activity.  Specifically, this chapter focuses on brain-controlled robotic devices that replace, supplement, or restore lost motor function.  The chapter introduces noninvasive and invasive brain signal recording modalities, common brain-actuated control signals, and a survey of applications in assistive robotics and prosthetics.  The chapter concludes with a discussion of current challenges and future prospects of these technologies."
   awards: 
   video:
   link: 

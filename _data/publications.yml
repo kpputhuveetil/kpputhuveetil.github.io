@@ -20,7 +20,7 @@
   video:
   link: https://arxiv.org/abs/2109.04930
   pdf: https://arxiv.org/pdf/2109.04930.pdf
-
+  
 - title: "Brain-controlled Assistive Robotics and Prosthetics"
   authors: Kavya Puthuveetil and Dean Krusienski
   year: 2021
@@ -44,7 +44,6 @@
   link: 
   pdf: ../assets/bci_for_medical_robotics_2021.pdf
   
-  
   - title: "Development of an application for real-time acquisition and synchronization of data from operative patient monitoring instruments"
   authors: Kavya Puthuveetil, Archana Venkatesan, Raymond Hang, and Dean Krusienski
   year: 2021
@@ -67,8 +66,6 @@
   video:
   link: 
   pdf: ../assets/sfn_abst+poster_2021-merged.pdf
-  
-  
 
 - title: "Shear Force Fiber Spinning: Process Parameter and Polymer Solution Property Considerations"
   authors: Arzan C. Dotivala, Kavya Puthuveetil, and Christina Tang
@@ -91,4 +88,3 @@
   video:
   link: https://www.mdpi.com/2073-4360/11/2/294/htm
   pdf: https://www.mdpi.com/2073-4360/11/2/294/pdf
-

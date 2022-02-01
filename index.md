@@ -18,6 +18,8 @@ layout: page
 <hr>
 
 ## News
+**2/1/22**: The [Bodies Uncovered](https://arxiv.org/abs/2109.04930) paper has been accepted for presentation at ICRA 2022 and for inclusion in the conference Proceedings! I can't wait to share my work in Philadelphia in May!
+
 **12/19/21:** My paper, ["Bodies Uncovered: Learning to Manipulate Real Blankets Around People via Physics Simulations"](https://arxiv.org/abs/2109.04930), has been accepted for publication in RA-L! The paper has also been forwarded to ICRA for consideration in the conference proceedings.
 
 **11/10/21:** The work I did as part of the SURE Robotics REU was featured on the Georgia Tech Research news site! The interview can be found [here](https://research.gatech.edu/lego-league-georgia-tech-healthcare-robotics-lab).

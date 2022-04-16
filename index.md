@@ -18,6 +18,8 @@ layout: page
 <hr>
 
 ## News
+**4/4/22**: I am honored to share that I was awarded the 2022 National Science Foundation (NSF) Graduate Research Fellowship (GRF)! So grateful to all of my research mentors for their support in helping to make this possible.
+
 **2/1/22**: The [Bodies Uncovered](https://arxiv.org/abs/2109.04930) paper has been accepted for presentation at ICRA 2022 and for inclusion in the conference Proceedings! I can't wait to share my work in Philadelphia in May!
 
 **12/19/21:** My paper, ["Bodies Uncovered: Learning to Manipulate Real Blankets Around People via Physics Simulations"](https://arxiv.org/abs/2109.04930), has been accepted for publication in RA-L! The paper has also been forwarded to ICRA for consideration in the conference proceedings.

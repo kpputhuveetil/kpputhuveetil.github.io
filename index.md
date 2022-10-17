@@ -12,7 +12,8 @@ layout: page
 
 <p>
   <br>
-  Hello! I am a fourth-year undergraduate student at Virginia Commonwealth University majoring in Biomedical Engineering. My general research interests include assistive and healthcare robotics, as well as human-robot interaction. I currently have the great pleasure of exploring these interests as a member of the Robotic Caregiving and Human Interaction (RCHI) lab, led by Dr. Zackory Erickson, at Carnegie Mellon University. I am applying to PhD programs in Robotics for admission in Fall 2022.
+  Hello! I am a PhD student at the Robotics Institute at Carnegie Mellon University. My general research interests include assistive and healthcare robotics, as well as human-robot interaction. I currently have the great pleasure of exploring these interests as a member of the Robotic Caregiving and Human Interaction (RCHI) lab, where I am advised by Dr. Zackory Erickson. My work is supported by the National Science Foundation (NSF) Graduate Research Fellowship Program (GRFP).
+
 </p>
 
 <hr>

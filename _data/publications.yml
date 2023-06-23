@@ -3,7 +3,7 @@
   authors: Kavya Puthuveetil, Sasha Wald, Atharva Pusalkar, Pratyusha Karnati, and Zackory Erickson
   year: 2023
   type:
-  venue:
+  venue: arXiv Preprint
   image: ../assets/images/bodies_uncovered.jpg
   id: puthuveetil2021bodies
   projectpage: 
@@ -19,6 +19,31 @@
       }
 
   abstract: "Robotic caregivers could potentially improve the quality of life of many who require physical assistance. However, in order to assist individuals who are lying in bed, robots must be capable of dealing with a significant obstacle: the blanket or sheet that will almost always cover the person's body. We propose a method for targeted bedding manipulation over people lying supine in bed where we first learn a model of the cloth's dynamics. Then, we optimize over this model to uncover a given target limb using information about human body shape and pose that only needs to be provided at run-time. We show how this approach enables greater robustness to variation relative to geometric and reinforcement learning baselines via a number of generalization evaluations in simulation and in the real world. We further evaluate our approach in a human study with 12 participants where we demonstrate that a mobile manipulator can adapt to real variation in human body shape, size, pose, and blanket configuration to uncover target body parts without exposing the rest of the body. Source code and supplementary materials are available online."
+  awards: 
+  video: https://www.youtube.com/watch?v=Sv9BRw6fsR0
+  link: https://arxiv.org/abs/2304.04822
+  pdf: https://arxiv.org/pdf/2304.04822.pdf
+
+- title: "SLURP! Spectroscopy of Liquids Using Robot Pre-Touch Sensing"
+  authors: Nathaniel Hanson, Wesley Lewis, Kavya Puthuveetil, Donelle Furline, Akhil Padmanabha, Taşkın Padır, and Zackory Erickson
+  year: 2023
+  type:
+  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  image: ../assets/images/bodies_uncovered.jpg
+  id: puthuveetil2021bodies
+  projectpage: 
+  code: https://github.com/RIVeR-Lab/slurp_grasping
+  bibtex: |
+      @misc{puthuveetil2023robust,
+      title={Bodies Uncovered: Learning to Manipulate Real Blankets Around People via Physics Simulations}, 
+      author={Kavya Puthuveetil and Sasha Wald and Atharva Pusalkar and Pratyusha Karnati and Zackory Erickson},
+      year={2023},
+      eprint={2304.04822}, 
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+      }
+
+  abstract: "Liquids and granular media are pervasive throughout human environments. Their free-flowing nature causes people to constrain them into containers. We do so with thousands of different types of containers made out of different materials with varying sizes, shapes, and colors. In this work, we present a state-of-the-art sensing technique for robots to perceive what liquid is inside of an unknown container. We do so by integrating Visible to Near Infrared (VNIR) reflectance spectroscopy into a robot's end effector. We introduce a hierarchical model for inferring the material classes of both containers and internal contents given spectral measurements from two integrated spectrometers. To train these inference models, we capture and open source a dataset of spectral measurements from over 180 different combinations of containers and liquids. Our technique demonstrates over 85% accuracy in identifying 13 different liquids and granular media contained within 13 different containers. The sensitivity of our spectral readings allow our model to also identify the material composition of the containers themselves with 96% accuracy. Overall, VNIR spectroscopy presents a promising method to give household robots a general-purpose ability to infer the liquids inside of containers, without needing to open or manipulate the containers."
   awards: 
   video: https://www.youtube.com/watch?v=Sv9BRw6fsR0
   link: https://arxiv.org/abs/2304.04822

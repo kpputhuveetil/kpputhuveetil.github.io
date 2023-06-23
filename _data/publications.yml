@@ -6,7 +6,7 @@
   venue: arXiv Preprint
   image: ../assets/images/robe.png
   id: puthuveetil2023robust
-  projectpage: 
+  projectpage: https://rchi-lab.github.io/robust-body-exposure/
   code: https://github.com/RCHI-Lab/robust-body-exposure
   bibtex: |
       @misc{puthuveetil2023robust,

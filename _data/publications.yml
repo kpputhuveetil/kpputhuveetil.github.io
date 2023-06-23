@@ -4,7 +4,7 @@
   year: 2023
   type:
   venue: arXiv Preprint
-  image: ../assets/images/bodies_uncovered.jpg
+  image: ../assets/images/robe.png
   id: puthuveetil2023robust
   projectpage: 
   code: https://github.com/RCHI-Lab/robust-body-exposure
@@ -29,7 +29,7 @@
   year: 2023
   type:
   venue: IEEE International Conference on Robotics and Automation (ICRA)
-  image: ../assets/images/bodies_uncovered.jpg
+  image: ../assets/images/slurp_spread.jpg
   id: hanson2023slurp
   projectpage: https://river-lab.github.io/slurp_grasping/
   code: https://github.com/RIVeR-Lab/slurp_grasping
